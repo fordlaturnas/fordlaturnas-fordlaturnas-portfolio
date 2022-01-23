@@ -1,0 +1,91 @@
+[1mdiff --git a/src/index.html b/src/index.html[m
+[1mindex 0b2a589..91b5a23 100644[m
+[1m--- a/src/index.html[m
+[1m+++ b/src/index.html[m
+[36m@@ -5,7 +5,7 @@[m
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />[m
+     <meta name="viewport" content="width=device-width, initial-scale=1" />[m
+     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />[m
+[31m-    <title>Ford Laturnas | Developer</title>[m
+[32m+[m[32m    <title>Ford Laturnas | Web Developer</title>[m
+     <meta name="keywords" content="fordlaturnas, MERN Stack, Front-End Developer, Web Developer" />[m
+     <meta name="description" content="Ford Laturnas | Web Developer" />[m
+ [m
+[36m@@ -62,7 +62,7 @@[m
+             <div class="about-wrapper__info load-hidden">[m
+               <p class="about-wrapper__info-text">[m
+                 I'm a Web Developer with a strong Front-End focus. Currently live in the Philippines.[m
+[31m-                I specialize in creating interactive experience and functional interfaces using React.[m
+[32m+[m[32m                I specialize in creating interactive experience and functional interfaces using JavaScript and React.[m
+               </p>[m
+               <p class="about-wrapper__info-text">[m
+                 In my spare time I do some Photography and Videography stuff. [m
+[36m@@ -90,6 +90,60 @@[m
+         <div class="project-wrapper">[m
+           <h2 class="section-title dark-blue-text">Projects</h2>[m
+ [m
+[32m+[m[32m          <!-- Robo Friends -->[m
+[32m+[m[32m          <!-- Notice: each .row is a project -->[m
+[32m+[m[32m          <div class="row">[m
+[32m+[m[32m            <div class="col-lg-4 col-sm-12">[m
+[32m+[m[32m              <div class="project-wrapper__text load-hidden">[m
+[32m+[m[32m                <h3 class="project-wrapper__text-title">Quote Generator</h3>[m
+[32m+[m[32m                <div>[m
+[32m+[m[32m                  <p class="mb-4">[m
+[32m+[m[32m                    Using the basics of React like Componets, Props, State, Error Hanlding, Hooks[m
+[32m+[m[32m                    and even fetching API from server. This simple React App is simple yet foundational.[m
+[32m+[m[32m                  </p>[m
+[32m+[m[32m                </div>[m
+[32m+[m[32m                <a[m
+[32m+[m[32m                  rel="noreferrer"[m
+[32m+[m[32m                  target="_blank"[m
+[32m+[m[32m                  class="cta-btn cta-btn--hero"[m
+[32m+[m[32m                  href="https://robofriends-fordlaturnas.netlify.app/"[m
+[32m+[m[32m                >[m
+[32m+[m[32m                  See Live[m
+[32m+[m[32m                </a>[m
+[32m+[m[32m                <a[m
+[32m+[m[32m                  rel="noreferrer"[m
+[32m+[m[32m                  target="_blank"[m
+[32m+[m[32m                  class="cta-btn text-color-main"[m
+[32m+[m[32m                  href="https://github.com/fordlaturnas/robofriends"[m
+[32m+[m[32m                >[m
+[32m+[m[32m                  Source Code[m
+[32m+[m[32m                </a>[m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m            <div class="col-lg-8 col-sm-12">[m
+[32m+[m[32m              <div class="project-wrapper__image load-hidden">[m
+[32m+[m[41m               [m
+[32m+[m[32m                  <div[m
+[32m+[m[32m                    data-tilt[m
+[32m+[m[32m                    data-tilt-max="4"[m
+[32m+[m[32m                    data-tilt-glare="true"[m
+[32m+[m[32m                    data-tilt-max-glare="0.5"[m
+[32m+[m[32m                    class="thumbnail rounded js-tilt"[m
+[32m+[m[32m                  >[m
+[32m+[m[32m                    <img[m
+[32m+[m[32m                      alt="Project Image"[m
+[32m+[m[32m                      class="img-fluid"[m
+[32m+[m[32m                      src="assets/robo-friends.jpg"[m
+[32m+[m[32m                    />[m
+[32m+[m[32m                  </div>[m
+[32m+[m[41m               [m
+[32m+[m[32m              </div>[m
+[32m+[m[32m            </div>[m
+[32m+[m[32m          </div>[m
+[32m+[m[32m          <!-- /END Project -->[m
+[32m+[m[32m          <!-- Robo Friends -->[m
+[32m+[m
+[32m+[m[32m          <!-- Quote Generator -->[m
+           <!-- Notice: each .row is a project -->[m
+           <div class="row">[m
+             <div class="col-lg-4 col-sm-12">[m
+[36m@@ -140,6 +194,7 @@[m
+             </div>[m
+           </div>[m
+           <!-- /END Project -->[m
+[32m+[m[32m          <!-- Quote Generator -->[m
+ [m
+           <!-- Notice: each .row is a project -->[m
+           <div class="row">[m
